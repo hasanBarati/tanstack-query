@@ -3,7 +3,7 @@ import { getTodo, getTodoIds } from "./api";
 
 export function useTodosIds() {
   return useQuery({
-    queryKey: ["todos"],
+    queryKey: ["todo"],
     queryFn: getTodoIds,
   });
 }
