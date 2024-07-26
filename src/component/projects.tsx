@@ -9,6 +9,7 @@ export default function Projects() {
     <div>
       {isPending ? (
         <div>...loading</div>
+        
       ) : isError ? (
         <>{error.message}</>
       ) : (
