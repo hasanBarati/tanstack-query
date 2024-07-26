@@ -1,12 +1,18 @@
 import './App.css'
-import Todos from './component/todos'
+import { RedButton, RedButton2 } from './component/partial-component'
+
+import Projects from './component/projects'
+// import Todos from './component/todos'
 
 
 function App() {
 
   return (
     <>
-      <Todos/>
+      <RedButton text="dsdsfdsfs"/>
+      <RedButton2 text="dsdsfdsfs"/>
+      {/* <Projects/> */}
+      {/* <Todos/> */}
     </>
   )
 }
